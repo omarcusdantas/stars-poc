@@ -7,15 +7,17 @@
 
 .stars span {
   margin: 0 5px;
+  -webkit-tap-highlight-color: transparent; /* For iOS */
+  -webkit-user-select: none; /* Disable selection */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .container:first-child {
   margin-bottom: 80px;
 }
 
-.container {
-  user-select: none;
-}
 
 .logo {
   height: 6em;
